@@ -1,5 +1,3 @@
 package net.vanfleteren.objectvalidation
 
-class Error {
-
-}
+case class Error(message: String, path:String = "")
